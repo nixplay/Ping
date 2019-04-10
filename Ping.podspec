@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/connerwu/Ping"
   s.license      = "MIT"
   s.author       = { "ConnerWu" => "244295790@qq.com" }
-  s.source  = { :git => "hhttps://github.com/connerwu/Ping.git", :tag => s.version }
+  s.source  = { :git => "https://github.com/connerwu/Ping.git", :tag => s.version }
   s.source_files  = "Ping/*.{h,m}"
 
   s.public_header_files = 'Ping/PingHelper.h'
