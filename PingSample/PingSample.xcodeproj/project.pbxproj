@@ -15,6 +15,13 @@
 		6D4AE26C225DC6BC00049595 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AE26B225DC6BC00049595 /* main.m */; };
 		6D4AE277225DC70A00049595 /* PingFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AE275225DC70A00049595 /* PingFoundation.m */; };
 		6D4AE278225DC70A00049595 /* PingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AE276225DC70A00049595 /* PingHelper.m */; };
+		6D4AE281225DCCF800049595 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AE280225DCCF800049595 /* AppDelegate.m */; };
+		6D4AE284225DCCF800049595 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AE283225DCCF800049595 /* ViewController.m */; };
+		6D4AE286225DCCF900049595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D4AE285225DCCF900049595 /* Assets.xcassets */; };
+		6D4AE289225DCCF900049595 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D4AE287225DCCF900049595 /* Main.storyboard */; };
+		6D4AE28C225DCCF900049595 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AE28B225DCCF900049595 /* main.m */; };
+		6D4AE291225DCD2A00049595 /* PingFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AE275225DC70A00049595 /* PingFoundation.m */; };
+		6D4AE292225DCD2D00049595 /* PingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AE276225DC70A00049595 /* PingHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,10 +39,27 @@
 		6D4AE274225DC70A00049595 /* PingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingHelper.h; sourceTree = "<group>"; };
 		6D4AE275225DC70A00049595 /* PingFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingFoundation.m; sourceTree = "<group>"; };
 		6D4AE276225DC70A00049595 /* PingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingHelper.m; sourceTree = "<group>"; };
+		6D4AE27D225DCCF700049595 /* macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D4AE27F225DCCF800049595 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6D4AE280225DCCF800049595 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6D4AE282225DCCF800049595 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6D4AE283225DCCF800049595 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6D4AE285225DCCF900049595 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D4AE288225DCCF900049595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D4AE28A225DCCF900049595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D4AE28B225DCCF900049595 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D4AE28D225DCCF900049595 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		6D4AE256225DC6BA00049595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D4AE27A225DCCF700049595 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -48,7 +72,9 @@
 		6D4AE250225DC6BA00049595 = {
 			isa = PBXGroup;
 			children = (
+				6D4AE272225DC70A00049595 /* Ping */,
 				6D4AE25B225DC6BA00049595 /* PingSample */,
+				6D4AE27E225DCCF800049595 /* macOS */,
 				6D4AE25A225DC6BA00049595 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				6D4AE259225DC6BA00049595 /* PingSample.app */,
+				6D4AE27D225DCCF700049595 /* macOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,7 +91,6 @@
 		6D4AE25B225DC6BA00049595 /* PingSample */ = {
 			isa = PBXGroup;
 			children = (
-				6D4AE272225DC70A00049595 /* Ping */,
 				6D4AE25C225DC6BA00049595 /* AppDelegate.h */,
 				6D4AE25D225DC6BA00049595 /* AppDelegate.m */,
 				6D4AE25F225DC6BA00049595 /* ViewController.h */,
@@ -82,12 +108,27 @@
 			isa = PBXGroup;
 			children = (
 				6D4AE273225DC70A00049595 /* PingFoundation.h */,
-				6D4AE274225DC70A00049595 /* PingHelper.h */,
 				6D4AE275225DC70A00049595 /* PingFoundation.m */,
+				6D4AE274225DC70A00049595 /* PingHelper.h */,
 				6D4AE276225DC70A00049595 /* PingHelper.m */,
 			);
-			name = Ping;
-			path = ../../Ping;
+			path = Ping;
+			sourceTree = "<group>";
+		};
+		6D4AE27E225DCCF800049595 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				6D4AE27F225DCCF800049595 /* AppDelegate.h */,
+				6D4AE280225DCCF800049595 /* AppDelegate.m */,
+				6D4AE282225DCCF800049595 /* ViewController.h */,
+				6D4AE283225DCCF800049595 /* ViewController.m */,
+				6D4AE285225DCCF900049595 /* Assets.xcassets */,
+				6D4AE287225DCCF900049595 /* Main.storyboard */,
+				6D4AE28A225DCCF900049595 /* Info.plist */,
+				6D4AE28B225DCCF900049595 /* main.m */,
+				6D4AE28D225DCCF900049595 /* macOS.entitlements */,
+			);
+			path = macOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +151,23 @@
 			productReference = 6D4AE259225DC6BA00049595 /* PingSample.app */;
 			productType = "com.apple.product-type.application";
 		};
+		6D4AE27C225DCCF700049595 /* macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D4AE290225DCCF900049595 /* Build configuration list for PBXNativeTarget "macOS" */;
+			buildPhases = (
+				6D4AE279225DCCF700049595 /* Sources */,
+				6D4AE27A225DCCF700049595 /* Frameworks */,
+				6D4AE27B225DCCF700049595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macOS;
+			productName = macOS;
+			productReference = 6D4AE27D225DCCF700049595 /* macOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -121,6 +179,14 @@
 				TargetAttributes = {
 					6D4AE258225DC6BA00049595 = {
 						CreatedOnToolsVersion = 10.1;
+					};
+					6D4AE27C225DCCF700049595 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -138,6 +204,7 @@
 			projectRoot = "";
 			targets = (
 				6D4AE258225DC6BA00049595 /* PingSample */,
+				6D4AE27C225DCCF700049595 /* macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -153,6 +220,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6D4AE27B225DCCF700049595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D4AE286225DCCF900049595 /* Assets.xcassets in Resources */,
+				6D4AE289225DCCF900049595 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -165,6 +241,18 @@
 				6D4AE26C225DC6BC00049595 /* main.m in Sources */,
 				6D4AE25E225DC6BA00049595 /* AppDelegate.m in Sources */,
 				6D4AE278225DC70A00049595 /* PingHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D4AE279225DCCF700049595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D4AE291225DCD2A00049595 /* PingFoundation.m in Sources */,
+				6D4AE284225DCCF800049595 /* ViewController.m in Sources */,
+				6D4AE28C225DCCF900049595 /* main.m in Sources */,
+				6D4AE281225DCCF800049595 /* AppDelegate.m in Sources */,
+				6D4AE292225DCD2D00049595 /* PingHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +273,14 @@
 				6D4AE268225DC6BC00049595 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6D4AE287225DCCF900049595 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D4AE288225DCCF900049595 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -334,6 +430,46 @@
 			};
 			name = Release;
 		};
+		6D4AE28E225DCCF900049595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.b.c.macOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6D4AE28F225DCCF900049595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.b.c.macOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -351,6 +487,15 @@
 			buildConfigurations = (
 				6D4AE270225DC6BC00049595 /* Debug */,
 				6D4AE271225DC6BC00049595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D4AE290225DCCF900049595 /* Build configuration list for PBXNativeTarget "macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D4AE28E225DCCF900049595 /* Debug */,
+				6D4AE28F225DCCF900049595 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
