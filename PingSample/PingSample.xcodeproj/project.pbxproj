@@ -13,15 +13,15 @@
 		6D4AE266225DC6BC00049595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D4AE265225DC6BC00049595 /* Assets.xcassets */; };
 		6D4AE269225DC6BC00049595 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D4AE267225DC6BC00049595 /* LaunchScreen.storyboard */; };
 		6D4AE26C225DC6BC00049595 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AE26B225DC6BC00049595 /* main.m */; };
-		6D4AE277225DC70A00049595 /* PingFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AE275225DC70A00049595 /* PingFoundation.m */; };
-		6D4AE278225DC70A00049595 /* PingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AE276225DC70A00049595 /* PingHelper.m */; };
 		6D4AE281225DCCF800049595 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AE280225DCCF800049595 /* AppDelegate.m */; };
 		6D4AE284225DCCF800049595 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AE283225DCCF800049595 /* ViewController.m */; };
 		6D4AE286225DCCF900049595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D4AE285225DCCF900049595 /* Assets.xcassets */; };
 		6D4AE289225DCCF900049595 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D4AE287225DCCF900049595 /* Main.storyboard */; };
 		6D4AE28C225DCCF900049595 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AE28B225DCCF900049595 /* main.m */; };
-		6D4AE291225DCD2A00049595 /* PingFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AE275225DC70A00049595 /* PingFoundation.m */; };
-		6D4AE292225DCD2D00049595 /* PingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AE276225DC70A00049595 /* PingHelper.m */; };
+		6D4AE298225DD1B200049595 /* PingFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AE296225DD1B200049595 /* PingFoundation.m */; };
+		6D4AE299225DD1B200049595 /* PingFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AE296225DD1B200049595 /* PingFoundation.m */; };
+		6D4AE29A225DD1B200049595 /* PingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AE297225DD1B200049595 /* PingHelper.m */; };
+		6D4AE29B225DD1B200049595 /* PingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AE297225DD1B200049595 /* PingHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,10 +35,6 @@
 		6D4AE268225DC6BC00049595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D4AE26A225DC6BC00049595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D4AE26B225DC6BC00049595 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6D4AE273225DC70A00049595 /* PingFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingFoundation.h; sourceTree = "<group>"; };
-		6D4AE274225DC70A00049595 /* PingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingHelper.h; sourceTree = "<group>"; };
-		6D4AE275225DC70A00049595 /* PingFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingFoundation.m; sourceTree = "<group>"; };
-		6D4AE276225DC70A00049595 /* PingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingHelper.m; sourceTree = "<group>"; };
 		6D4AE27D225DCCF700049595 /* macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D4AE27F225DCCF800049595 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6D4AE280225DCCF800049595 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -49,6 +45,10 @@
 		6D4AE28A225DCCF900049595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D4AE28B225DCCF900049595 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6D4AE28D225DCCF900049595 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		6D4AE294225DD1B200049595 /* PingFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingFoundation.h; sourceTree = "<group>"; };
+		6D4AE295225DD1B200049595 /* PingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingHelper.h; sourceTree = "<group>"; };
+		6D4AE296225DD1B200049595 /* PingFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingFoundation.m; sourceTree = "<group>"; };
+		6D4AE297225DD1B200049595 /* PingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +72,7 @@
 		6D4AE250225DC6BA00049595 = {
 			isa = PBXGroup;
 			children = (
-				6D4AE272225DC70A00049595 /* Ping */,
+				6D4AE293225DD1B200049595 /* Ping */,
 				6D4AE25B225DC6BA00049595 /* PingSample */,
 				6D4AE27E225DCCF800049595 /* macOS */,
 				6D4AE25A225DC6BA00049595 /* Products */,
@@ -104,17 +104,6 @@
 			path = PingSample;
 			sourceTree = "<group>";
 		};
-		6D4AE272225DC70A00049595 /* Ping */ = {
-			isa = PBXGroup;
-			children = (
-				6D4AE273225DC70A00049595 /* PingFoundation.h */,
-				6D4AE275225DC70A00049595 /* PingFoundation.m */,
-				6D4AE274225DC70A00049595 /* PingHelper.h */,
-				6D4AE276225DC70A00049595 /* PingHelper.m */,
-			);
-			path = Ping;
-			sourceTree = "<group>";
-		};
 		6D4AE27E225DCCF800049595 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +118,18 @@
 				6D4AE28D225DCCF900049595 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		6D4AE293225DD1B200049595 /* Ping */ = {
+			isa = PBXGroup;
+			children = (
+				6D4AE294225DD1B200049595 /* PingFoundation.h */,
+				6D4AE295225DD1B200049595 /* PingHelper.h */,
+				6D4AE296225DD1B200049595 /* PingFoundation.m */,
+				6D4AE297225DD1B200049595 /* PingHelper.m */,
+			);
+			name = Ping;
+			path = ../Ping;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,11 +237,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D4AE277225DC70A00049595 /* PingFoundation.m in Sources */,
+				6D4AE298225DD1B200049595 /* PingFoundation.m in Sources */,
 				6D4AE261225DC6BB00049595 /* ViewController.m in Sources */,
 				6D4AE26C225DC6BC00049595 /* main.m in Sources */,
 				6D4AE25E225DC6BA00049595 /* AppDelegate.m in Sources */,
-				6D4AE278225DC70A00049595 /* PingHelper.m in Sources */,
+				6D4AE29A225DD1B200049595 /* PingHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,11 +249,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D4AE291225DCD2A00049595 /* PingFoundation.m in Sources */,
+				6D4AE299225DD1B200049595 /* PingFoundation.m in Sources */,
 				6D4AE284225DCCF800049595 /* ViewController.m in Sources */,
 				6D4AE28C225DCCF900049595 /* main.m in Sources */,
 				6D4AE281225DCCF800049595 /* AppDelegate.m in Sources */,
-				6D4AE292225DCD2D00049595 /* PingHelper.m in Sources */,
+				6D4AE29B225DD1B200049595 /* PingHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
