@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'Ping'
-  s.version  = '1.0.0'
+  s.version  = '1.0.1'
   s.license  = { :type => 'public domain', :text => <<-LICENSE
 Public Domain License
 

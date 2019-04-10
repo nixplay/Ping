@@ -12,11 +12,11 @@
 		6D4AE2B7225DE54C00049595 /* PingHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D4AE2B3225DE54C00049595 /* PingHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D4AE2B8225DE54C00049595 /* PingFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AE2B4225DE54C00049595 /* PingFoundation.m */; };
 		6D4AE2B9225DE54C00049595 /* PingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AE2B5225DE54C00049595 /* PingHelper.m */; };
-		6D4AE2C3225DE5DF00049595 /* macOS_Ping.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D4AE2C1225DE5DF00049595 /* macOS_Ping.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D4AE2C7225DE60400049595 /* PingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AE2B5225DE54C00049595 /* PingHelper.m */; };
 		6D4AE2C8225DE60600049595 /* PingHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D4AE2B3225DE54C00049595 /* PingHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D4AE2C9225DE60800049595 /* PingFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4AE2B4225DE54C00049595 /* PingFoundation.m */; };
 		6D4AE2CA225DE60A00049595 /* PingFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D4AE2B2225DE54C00049595 /* PingFoundation.h */; };
+		6D4AE2CB225DF02100049595 /* Ping.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D4AE2A9225DE50400049595 /* Ping.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +27,7 @@
 		6D4AE2B3225DE54C00049595 /* PingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingHelper.h; sourceTree = "<group>"; };
 		6D4AE2B4225DE54C00049595 /* PingFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingFoundation.m; sourceTree = "<group>"; };
 		6D4AE2B5225DE54C00049595 /* PingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingHelper.m; sourceTree = "<group>"; };
-		6D4AE2BF225DE5DF00049595 /* macOS_Ping.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = macOS_Ping.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D4AE2C1225DE5DF00049595 /* macOS_Ping.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = macOS_Ping.h; sourceTree = "<group>"; };
-		6D4AE2C2225DE5DF00049595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D4AE2BF225DE5DF00049595 /* Ping.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Ping.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +53,6 @@
 			children = (
 				6D4AE2B1225DE54C00049595 /* Source */,
 				6D4AE2A8225DE50400049595 /* Ping */,
-				6D4AE2C0225DE5DF00049595 /* macOS Ping */,
 				6D4AE2A7225DE50400049595 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,7 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				6D4AE2A6225DE50400049595 /* Ping.framework */,
-				6D4AE2BF225DE5DF00049595 /* macOS_Ping.framework */,
+				6D4AE2BF225DE5DF00049595 /* Ping.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,15 +86,6 @@
 			path = Source;
 			sourceTree = SOURCE_ROOT;
 		};
-		6D4AE2C0225DE5DF00049595 /* macOS Ping */ = {
-			isa = PBXGroup;
-			children = (
-				6D4AE2C1225DE5DF00049595 /* macOS_Ping.h */,
-				6D4AE2C2225DE5DF00049595 /* Info.plist */,
-			);
-			path = "macOS Ping";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -115,8 +103,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D4AE2CB225DF02100049595 /* Ping.h in Headers */,
 				6D4AE2C8225DE60600049595 /* PingHelper.h in Headers */,
-				6D4AE2C3225DE5DF00049595 /* macOS_Ping.h in Headers */,
 				6D4AE2CA225DE60A00049595 /* PingFoundation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -124,9 +112,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6D4AE2A5225DE50400049595 /* Ping */ = {
+		6D4AE2A5225DE50400049595 /* iOS Ping */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6D4AE2AE225DE50400049595 /* Build configuration list for PBXNativeTarget "Ping" */;
+			buildConfigurationList = 6D4AE2AE225DE50400049595 /* Build configuration list for PBXNativeTarget "iOS Ping" */;
 			buildPhases = (
 				6D4AE2A1225DE50400049595 /* Headers */,
 				6D4AE2A2225DE50400049595 /* Sources */,
@@ -137,7 +125,7 @@
 			);
 			dependencies = (
 			);
-			name = Ping;
+			name = "iOS Ping";
 			productName = Ping;
 			productReference = 6D4AE2A6225DE50400049595 /* Ping.framework */;
 			productType = "com.apple.product-type.framework";
@@ -157,7 +145,7 @@
 			);
 			name = "macOS Ping";
 			productName = "macOS Ping";
-			productReference = 6D4AE2BF225DE5DF00049595 /* macOS_Ping.framework */;
+			productReference = 6D4AE2BF225DE5DF00049595 /* Ping.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -189,7 +177,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6D4AE2A5225DE50400049595 /* Ping */,
+				6D4AE2A5225DE50400049595 /* iOS Ping */,
 				6D4AE2BE225DE5DF00049595 /* macOS Ping */,
 			);
 		};
@@ -356,8 +344,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -370,7 +359,8 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.b.c.Ping;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -380,8 +370,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -394,7 +385,8 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.b.c.Ping;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -404,14 +396,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "macOS Ping/Info.plist";
+				INFOPLIST_FILE = Ping/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -419,8 +412,9 @@
 					"@loader_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.b.c.macOS-Ping";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.b.c.Ping;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -430,14 +424,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "macOS Ping/Info.plist";
+				INFOPLIST_FILE = Ping/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -445,8 +440,9 @@
 					"@loader_path/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.b.c.macOS-Ping";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.b.c.Ping;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -464,7 +460,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6D4AE2AE225DE50400049595 /* Build configuration list for PBXNativeTarget "Ping" */ = {
+		6D4AE2AE225DE50400049595 /* Build configuration list for PBXNativeTarget "iOS Ping" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6D4AE2AF225DE50400049595 /* Debug */,
